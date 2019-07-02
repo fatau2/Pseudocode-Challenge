@@ -1,0 +1,66 @@
+WEEK 2 Pseudocode challenge
+
+1. Newton second law
+
+ALgorithm
+
+1. Store 600kg as value for mass(m)
+2. Store 2 m/s2 as value for acceleration(a)
+3. Multiply the value of mass with acceleration
+
+Pseudocode
+
+Mass EQUALS 600kg
+Acceleration EQUALS 2 m/s2
+COMPUTE Force as Mass times Acceleration
+
+2. Tahun Kabisat
+
+Algorithm
+
+1. Store value for number of days in a year
+2. Divide the number of year by 4 and 100 and 400
+3. The year is leap year if it is divisible by 4 but not 100 or
+it is divisible by 4, 100, and 400.
+
+Pseudocode
+
+READ number of days in a year
+Value "A" EQUALS number of days in a year divided by 4
+Value "B" EQUALS number of days in a year divided by 100
+Value "C" EQUALS number of days in a year divided by 400
+IF A is zero and B is not 0, the year is a leap year
+IF A,B, and C are zero the year is a leap year
+ELSE the year is not a leap year
+
+3. Laundry Day
+
+Algorithm
+
+1. Store value for number of clothes in the washing machine
+2. Washing machine is on only when there are 20 clothes in it
+
+Pseudocode
+
+READ number of clothes in the washing machine
+SET condition of the washing machine as off
+WHILE number of clothes in the washing machine is LESS than 20 the machine is off otherwise it is set to on
+
+4. Periksa Kuku
+
+Algorithm
+
+1. Store value of number of students as 40
+2. Store value for number of students already checked by the teacher
+3. Teacher punish a student if he/she has long nails, otherwise he/she applauds the student
+3. Teacher keeps checking for the students' nails until all students are checked
+
+Pseudocode
+
+Students not checked EQUALS 40
+FOR every student in "student not checked" teacher checked the student's nail
+IF student has long nails the teacher punish them THEN number of students not checked is reduced by 1
+ELSE student is applauded THEN number of students not checked is reduced by 1
+IF number of students not checked EQUALS 0 the teacher is done checking
+
+
